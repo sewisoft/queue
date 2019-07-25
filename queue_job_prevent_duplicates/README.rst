@@ -37,8 +37,8 @@ If the creation of a duplicate job was prevented, a log information will be crea
 
 .. code-block::
 
-    2017-12-11 08:02:51,770 10505 INFO v10_connector_db odoo.addons.sewi_queue_job_prevent_duplicates.models.queue_job: A job already exists for domain [('state', 'not in', ['started', 'done']), ('func_string', '=', 'sewi.shopware.synchronizer(6,)._import_all_records(only_new=True)')]
-    2017-12-11 08:02:51,775 10505 INFO v10_connector_db odoo.addons.sewi_queue_job_prevent_duplicates.models.queue_job: A job already exists for domain [('state', 'not in', ['started', 'done']), ('func_string', '=', 'sewi.shopware.synchronizer(7,)._import_all_records(only_new=True)')]
+    2017-12-11 08:02:51,770 10505 INFO v10_connector_db odoo.addons.queue_job_prevent_duplicates.models.queue_job: A job already exists for domain [('state', 'not in', ['started', 'done']), ('func_string', '=', 'sewi.shopware.synchronizer(6,)._import_all_records(only_new=True)')]
+    2017-12-11 08:02:51,775 10505 INFO v10_connector_db odoo.addons.queue_job_prevent_duplicates.models.queue_job: A job already exists for domain [('state', 'not in', ['started', 'done']), ('func_string', '=', 'sewi.shopware.synchronizer(7,)._import_all_records(only_new=True)')]
 
 
 Know Issues
